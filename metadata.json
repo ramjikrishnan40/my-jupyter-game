@@ -1,0 +1,5 @@
+{
+  "name": "Terminal Coopetition: A Game Theory Simulation",
+  "description": "An interactive web application for business students to explore game theory concepts through a Prisoner's Dilemma simulation, based on the 'Navigating Competition and Complexity of a Container Terminal' case study.",
+  "requestFramePermissions": []
+}
