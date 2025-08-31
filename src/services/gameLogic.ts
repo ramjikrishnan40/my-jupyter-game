@@ -1,8 +1,8 @@
-import type { Strategy, Action, GameState } from '../types';
+import type { Strategy, Action } from '../types';
 
 export function getActionForStrategy(
   strategy: Strategy,
-  ownHistory: Action[],
+  _ownHistory: Action[],
   opponentHistory: Action[],
   ownTotalPayoff: number,
   consecutiveOpponentDefects: number,

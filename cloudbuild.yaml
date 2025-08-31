@@ -24,6 +24,6 @@ steps:
 images:
 - 'us-central1-docker.pkg.dev/${PROJECT_ID}/cloud-run-source-deploy/terminal-coopetition:${COMMIT_SHA}'
 
-# Add this block to fix the logging error
+# This option fixes the logging error
 options:
   logging: CLOUD_LOGGING_ONLY

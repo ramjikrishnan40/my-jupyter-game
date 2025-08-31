@@ -1,6 +1,6 @@
 # Stage 1: Build the React application
 # Use an official Node.js image to build our project
-FROM node:18-alpine AS build-stage
+FROM node:20-alpine AS build-stage
 WORKDIR /app
 # Copy package.json and package-lock.json to leverage Docker cache
 COPY package*.json ./
