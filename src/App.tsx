@@ -797,7 +797,7 @@ const PostGameReflection: React.FC<{
                 contents: prompt,
             });
 
-            setAnalysis(response.text);
+            setAnalysis(response.text ?? '');
 
         } catch (e: any) {
             console.error("Error generating analysis:", e);
